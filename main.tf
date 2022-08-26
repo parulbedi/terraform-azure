@@ -110,7 +110,7 @@ provider "azurerm" {
   #  availability_set_id   = azurerm_availability_set.avset.id
    resource_group_name   = azurerm_resource_group.rg-mygroup.name
    network_interface_ids = [element(azurerm_network_interface.nic-myinterface.*.id, count.index)]
-   vm_size               = "Standard_B1s"
+   vm_size               = "Standard_B1ls"
 
    # Uncomment this line to delete the OS disk automatically when deleting the VM
    # delete_os_disk_on_termination = true
