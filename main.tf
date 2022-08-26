@@ -167,5 +167,4 @@ provider "azurerm" {
   #  tags = {
   #    environment = "staging"
   #  }
-
  }
