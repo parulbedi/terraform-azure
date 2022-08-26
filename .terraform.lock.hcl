@@ -18,3 +18,4 @@ provider "registry.terraform.io/hashicorp/azurerm" {
     "zh:f36ff78ae9de95f4216bb420ee4365cee7d70e95fac608fb650ae5aed5c04c1d",
   ]
 }
+
