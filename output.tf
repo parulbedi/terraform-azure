@@ -13,3 +13,7 @@ output "output-num-1"{
 output "output-num-2"{
     value = var.number-2-var
 }
+
+output "output-bool-var"{
+    value = var.bool-var
+}
