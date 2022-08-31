@@ -22,6 +22,20 @@ variable "set-var" {
     type = set(string)
  }
 
-variable "map-var" {
-    type = map(string)
+variable "map-pri-var" {
+    type = map(any)
+ }
+
+variable "map-obj-var" {
+     type = object ({
+        cidr_block = string
+        region = string
+     })
+ }
+
+variable "map-obj2-var" {
+     type = map(object ({
+        cidr_block = string
+        region = string
+     }))
  }

@@ -26,6 +26,14 @@ output "output-set-var"{
     value = var.set-var
 }
 
-output "output-map-var"{
-    value = var.map-var
+output "output-map-pri-var"{
+    value = var.map-pri-var
+}
+
+output "output-map-obj-var"{
+    value = var.map-obj-var
+}
+
+output "output-map-obj2-var"{
+    value = var.map-obj2-var
 }
