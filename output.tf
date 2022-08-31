@@ -37,3 +37,7 @@ output "output-map-obj-var"{
 output "output-map-obj2-var"{
     value = var.map-obj2-var
 }
+
+output "local-var"{
+    value = local.myname
+}

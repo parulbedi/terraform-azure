@@ -1,0 +1,3 @@
+locals {
+    myname = "Parul Bedi"
+}
