@@ -17,3 +17,15 @@ output "output-num-2"{
 output "output-bool-var"{
     value = var.bool-var
 }
+
+output "output-list-var"{
+    value = var.list-var
+}
+
+output "output-set-var"{
+    value = var.set-var
+}
+
+output "output-map-var"{
+    value = var.map-var
+}
