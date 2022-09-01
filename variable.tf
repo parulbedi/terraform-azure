@@ -39,3 +39,18 @@ variable "map-obj2-var" {
         region = string
      }))
  }
+
+ variable "list-add-var"{
+    type = list(number)
+ }
+
+variable "map-mydetails-var" {
+     type = map(object ({
+        name = string
+        age  = number
+     }))
+ }
+
+ variable "list-upper-var" {
+     type = list(string)
+ }
