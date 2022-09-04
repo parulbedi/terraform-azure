@@ -30,18 +30,22 @@ map-obj2-var = {
     # key3 = true
 }
 
+string-palin-var = "nitin"
+
 list-add-var = [2,5,1,9,4]
 
-list-signum-var = [2,5,1,9,4]
+list-signum-var = [0,-3,81,0,94]
 
 map-mydetails-var = {
     mydetails = { 
         name = "Parul",
-        age = 17
+        age = 31
     }
 }
 
 list-upper-var = ["Parul", "Arsh", "Rohit", "Udit", "Laddi"]
 
+# set-obj-cidr-rgn=[{cidr_block="10.0.0.0/20",region="us-central1"},{cidr_block="10.0.0.0/20",region="us-central1"}]
 
+set-name-var = ["rohit","abraham",5]
 
